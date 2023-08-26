@@ -1,0 +1,143 @@
+footer {
+    background: #f2f5f8;
+    padding-top: 4em;
+    padding-bottom: 0;
+    position: relative;
+}
+
+footer h3 {
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 1.1em;
+}
+
+
+footer p {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    color: #2f2f2f;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+footer #third-column {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #third-column {
+        margin-top: 2.5em;
+    }
+}
+
+ul.social-networking-links li {
+    list-style: none;
+    display: inline-block;
+    width: 46px;
+    border-radius: 50%;
+    height: 46px;
+    background: #fff;
+    text-align: center;
+    margin: 0em 0.75em 0em 0.75em;
+}
+
+ul.social-networking-links li a {
+    font-size: 30px;
+    line-height: 46px;
+    display: block;
+    margin: 0;
+    padding: 0px;
+    color: #f2f5f8;
+    transition: all .2s ease-in;
+    border-radius: 50%;
+}
+
+ul.social-networking-links li a.pinterest {
+    background-color: #cb2227;
+}
+
+ul.social-networking-links li a.instagram {
+    background-color: #c5d5e2;
+}
+
+ul.social-networking-links li a.youtube {
+    background-color: #cd3a28;
+}
+
+ul.social-networking-links li a.twitter {
+    background-color: #00acee;
+}
+
+.bi {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+@media (max-width: 600px) {
+    footer .list-inline>li {
+        display: block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+
+footer ul {
+    margin-top: 1.5em;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer ul li a {
+    color: #65abd0;
+    font-weight: 600;
+    font-size: 16px;
+    display: block;
+    margin-right: 1.5em;
+}
+
+
+p#copyright {
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+    color: #b6c5d3;
+    padding-bottom: 16px;
+}
+
+p#copyright a {
+    font-weight: 400;
+    color: #b6c5d3;
+}
